@@ -1,0 +1,37 @@
+.del_car {
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 3%;
+
+}
+
+.del_car h3 {
+	font-size: 1.6em;
+	margin-bottom: 1.5%;
+	margin-top: 1%;
+	text-align: center;
+}
+
+.del_car form {
+	margin-left: 40%;
+	font-size: 1.3em;
+}
+
+.del_car form input {
+	margin-bottom: 1.5%;
+	margin-right: 0.5%;
+}
+
+.del_car form input[type=submit] {
+	background-color: #092381;
+	color: #fff;
+	padding: 2%;
+	font-size: 1.1em;
+	width: 30%;
+	border-radius: 7px;
+	margin-top: 1%;
+}
+
+.del_car form input[type=submit]:hover {
+	background-color: #f2780d;
+}

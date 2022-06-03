@@ -1,0 +1,61 @@
+.about {
+	margin-top: 2%;
+}
+
+.about hr {
+	color: rgb(240, 233, 233);
+}
+
+.about h3,
+.requisites h4 {
+	font-size: 1.6em;
+	margin-bottom: 1%;
+	margin-top: 1%;
+}
+
+.requisites h4 {
+	margin-top: 2%;
+	margin-bottom: 2.5%;
+}
+
+.about p {
+	font-size: 1.2em;
+}
+
+.abouttext1,
+.abouttext2 {
+	margin-bottom: 1.2em;
+}
+
+.requisites {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.requisites div {
+	width: 48%;
+}
+
+.req_company ul,
+.req_bank ul {
+	margin-top: 1.5%;
+}
+
+.req_company li,
+.req_bank li {
+	font-size: 1.2em;
+	margin-bottom: 1.5%;
+	list-style: none;
+}
+
+@media (max-width: 1050px) {
+	.about p {
+		font-size: 1.1em;
+	}
+
+	.req_company li,
+	.req_bank li {
+		font-size: 1.1em;
+	}
+}

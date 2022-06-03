@@ -1,0 +1,206 @@
+/* @media (min-width: 800px) and (max-width: 1050px) */
+
+@media (max-width: 1050px) {
+	.logo img {
+		width: 60%;
+	}
+
+	.text_logo {
+		font-size: 1.4em;
+	}
+
+	.logo span {
+		font-size: 1.2em;
+	}
+
+	.logo div {
+		border-bottom: 2px solid #FFB015;
+		width: 65%;
+		margin-left: 70%;
+	}
+
+	.contacts,
+	.address,
+	.schedule {
+		font-size: 0.8em;
+	}
+
+	.tel,
+	.cite {
+		margin-bottom: 5%;
+	}
+
+	.tel::before {
+		content: "";
+	}
+
+	.email::before {
+		content: "";
+	}
+
+	.dop_address::before {
+		content: "";
+	}
+
+	.authorization a {
+		font-size: 1em;
+		float: right;
+	}
+
+	menu a {
+		font-size: 1.1em;
+	}
+
+	.cover h1 {
+		font-size: 2.7em;
+	}
+
+	.services a {
+		font-size: 1em;
+	}
+
+	.list_cars h3 {
+		font-size: 1.6em;
+	}
+
+	.div_brand select {
+		width: 140px;
+		height: 35px;
+		font-size: 1em;
+	}
+
+	.div_class input {
+		font-size: 0.9em;
+	}
+
+	input[type=range] {
+		width: 180px;
+		height: 10px;
+	}
+
+	.cards {
+		grid-template-columns: 33% 33% 33%;
+	}
+
+	.cards .but:nth-child(4n+4) {
+		margin-right: 5%;
+	}
+
+	.cards .but:nth-child(3n+3) {
+		margin-right: 0;
+	}
+
+	.but h4 {
+		font-size: 1.2em;
+	}
+
+	.but li:nth-child(2n) {
+		display: none;
+	}
+
+	.but .car_price {
+		font-size: 1.2em;
+		/* margin-bottom: 7%; */
+	}
+
+	.but .pday {
+		font-size: 1.1em;
+		margin-top: 5%;
+		margin-left: 6%;
+	}
+
+	.but a {
+		float: none;
+	}
+
+	.booking h3 {
+		font-size: 1.4em;
+	}
+
+	.booking ol {
+		font-size: 1em;
+	}
+
+	.booking ol li:before {
+		left: -50px;
+		font-size: 1.8em;
+	}
+
+	.requirements p {
+		font-size: 1em;
+		/* margin-bottom: 20%; */
+	}
+
+	.requirements .driver_license::before {
+		content: url("../img/free-icon-driver-license-2584718.png");
+		float: left;
+		margin-right: 8%;
+		margin-top: 0%;
+	}
+
+	.requirements .passport::before {
+		content: url("../img/premium-icon-passport-3284675.png");
+		float: left;
+		margin-right: 8%;
+		margin-top: 0%;
+	}
+
+	.requirements .age22::before {
+		content: url("../img/number-21.png");
+		float: left;
+		margin-right: 8%;
+		margin-top: 0%;
+	}
+
+	.requirements .experience::before {
+		content: url("../img/premium-icon-driver-5283249.png");
+		float: left;
+		margin-right: 8%;
+		margin-top: 0%;
+	}
+
+	.world {
+		min-height: 35vh;
+	}
+
+	.highway {
+		width: 50000%;
+	}
+
+	.flogo_text {
+		width: 40%;
+	}
+
+	.footer_contact {
+		margin-left: -19%;
+	}
+
+	.ftext_logo {
+		font-size: 1.3em;
+		color: #fff;
+	}
+
+	.ftext_logo span {
+		font-size: 1.2em;
+	}
+
+	.footer_contact,
+	.footer_address {
+		font-size: 1em;
+	}
+
+	/********************* вход в свой профиль *******************/
+	.entrance {
+		width: 35%;
+		left: 31%;
+	}
+
+	.entrance a::after {
+		content: url("../img/premium-icon-close-394554724.png");
+		float: right;
+	}
+
+	.entrance h3 {
+		font-size: 1.4em;
+	}
+}

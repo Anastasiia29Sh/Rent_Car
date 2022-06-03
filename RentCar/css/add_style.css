@@ -1,0 +1,68 @@
+.add {
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 3%;
+
+}
+
+.add h3 {
+	font-size: 1.6em;
+	margin-bottom: 3%;
+	margin-top: 1%;
+	text-align: center;
+}
+
+.add form {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	justify-items: center;
+}
+
+.add form label {
+	font-size: 1.2em;
+	text-align: left;
+}
+
+.add form input {
+	margin-bottom: 5%;
+	margin-top: 1%;
+	padding: 3%;
+	font-size: 1em;
+	width: 80%;
+	border-radius: 7px;
+}
+
+.add form input:focus {
+	border: 2px solid rgb(6, 16, 122);
+}
+
+.add form select {
+	font-size: 1em;
+	width: 87%;
+	padding: 3%;
+	margin-top: 2%;
+	border-radius: 7px;
+	margin-bottom: 7%;
+}
+
+.add form .radio {
+	float: left;
+	margin-top: 1%;
+	margin-right: 15%;
+}
+
+.add form input[type=submit] {
+	background-color: #092381;
+	color: #fff;
+	padding: 4%;
+	font-size: 1.2em;
+	width: 86%;
+}
+
+.add form input[type=submit]:hover {
+	background-color: #f2780d;
+}
+
+.add form .box4 #photo {
+	font-size: 0.8em;
+}

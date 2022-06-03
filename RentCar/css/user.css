@@ -1,0 +1,46 @@
+.profile {
+	margin-top: 3%;
+	text-align: center;
+}
+
+.profile h3 {
+	font-size: 1.6em;
+	margin-bottom: 3%;
+	margin-top: 1%;
+}
+
+.profile form {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-items: stretch;
+}
+
+.profile form label {
+	font-size: 1.3em;
+	text-align: left;
+}
+
+.profile form input {
+	margin-bottom: 5%;
+	margin-top: 1%;
+	padding: 3%;
+	font-size: 1.1em;
+	width: 80%;
+	border-radius: 7px;
+}
+
+.profile form input:focus {
+	border: 2px solid rgb(6, 16, 122);
+}
+
+.profile form .submit {
+	margin-top: 8%;
+	background-color: #092381;
+	color: #fff;
+	padding: 1.5%;
+	font-size: 1.3em;
+}
+
+.profile form .submit:hover {
+	background-color: #f2780d;
+}

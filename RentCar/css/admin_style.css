@@ -1,0 +1,60 @@
+.functional,
+.stat_graf {
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 3%;
+	text-align: center;
+}
+
+.functional h3,
+.stat_graf h3 {
+	font-size: 1.6em;
+	margin-bottom: 3%;
+	margin-top: 1%;
+}
+
+.functional .func {
+	display: flex;
+	flex-direction: row;
+	font-size: 1.2em;
+}
+
+.functional .func div {
+	width: 32%;
+	margin-right: 2%;
+}
+
+.functional .func .statistics {
+	margin-right: 0;
+}
+
+.functional .func .fun_cars a,
+.functional .func .fun_employees a {
+	display: inline-block;
+	padding: 5%;
+	width: 50%;
+	margin-top: 3%;
+	text-decoration: none;
+	background-color: #243571;
+	color: #fff;
+}
+
+.functional .func .fun_cars a:hover,
+.functional .func .fun_employees a:hover {
+	background-color: #ff7615;
+	color: #fff;
+}
+
+.stat_graf form {
+	margin-top: 3%;
+	margin-bottom: 5%;
+}
+
+.stat_graf form select {
+	/* margin-top: 2%; */
+	padding: 1%;
+	font-size: 1em;
+	width: 15%;
+	border-radius: 7px;
+	text-align: center;
+}

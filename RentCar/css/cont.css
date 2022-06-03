@@ -1,0 +1,59 @@
+.cont {
+	margin-top: 2%;
+	text-align: center;
+}
+
+.cont h3 {
+	font-size: 1.6em;
+	margin-bottom: 3%;
+	margin-top: 1%;
+}
+
+.cont .c {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	margin-bottom: 3%;
+}
+
+.cont .c div {
+	text-align: center;
+}
+
+.cont h4 {
+	font-size: 1.3em;
+	margin-bottom: 3%;
+}
+
+.cont p {
+	font-size: 1.2em;
+}
+
+.cont img {
+	margin-top: 3%;
+	width: 100%;
+}
+
+.ctelegram::before {
+	content: url("../img/telegram1.png");
+	margin-right: 5%;
+}
+
+.cwhatsapp::before {
+	content: url("../img/whatsapp1.png");
+	margin-right: 5%;
+}
+
+.cviber::before {
+	content: url("../img/viber.png");
+}
+
+@media (max-width: 900px) {
+	.cont h4 {
+		font-size: 1.2em;
+		margin-bottom: 3%;
+	}
+
+	.cont p {
+		font-size: 1em;
+	}
+}

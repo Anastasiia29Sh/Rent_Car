@@ -1,0 +1,74 @@
+.registration {
+	margin-top: 3%;
+	text-align: center;
+}
+
+.registration h3 {
+	font-size: 1.6em;
+	margin-bottom: 3%;
+	margin-top: 1%;
+}
+
+.registration form {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-items: stretch;
+}
+
+.registration form label {
+	font-size: 1.3em;
+	text-align: left;
+}
+
+.registration form input {
+	margin-bottom: 5%;
+	margin-top: 1%;
+	padding: 3%;
+	font-size: 1em;
+	width: 80%;
+	border-radius: 7px;
+}
+
+.registration form input:focus {
+	border: 2px solid rgb(6, 16, 122);
+}
+
+.registration form .submit {
+	margin-top: 8%;
+	background-color: #092381;
+	color: #fff;
+	padding: 1.5%;
+	font-size: 1.2em;
+	width: 87%;
+}
+
+.registration form .submit:hover {
+	background-color: #f2780d;
+}
+
+.registration .registration_success {
+	display: none;
+}
+
+.registration .registration_success p {
+	font-size: 1.4em;
+	margin-bottom: 3%;
+}
+
+.registration .registration_success a {
+	text-decoration: none;
+	background-color: #092381;
+	color: #fff;
+	padding: 1% 3%;
+	font-size: 1.5em;
+	border-radius: 5px;
+}
+
+.status_user {
+	margin-bottom: 5%;
+	margin-top: 1%;
+	padding: 3%;
+	font-size: 1em;
+	width: 86%;
+	border-radius: 7px;
+}

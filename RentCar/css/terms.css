@@ -1,0 +1,41 @@
+.terms {
+	margin-top: 3%;
+}
+
+.terms h3 {
+	font-size: 1.6em;
+	margin-bottom: 1%;
+	margin-top: 1%;
+}
+
+.terms a {
+	display: block;
+	font-size: 1.5em;
+	font-weight: normal;
+	border: 1px solid rgb(5, 36, 160);
+	padding: 1.5%;
+}
+
+.terms a:hover {
+	color: blue;
+	background-color: rgb(184, 198, 255);
+}
+
+.terms div {
+	border: 1px solid rgb(5, 36, 160);
+	padding: 1.5%;
+	display: none;
+	font-size: 1.2em;
+}
+
+.terms .term_text3 li,
+.terms .term_text1 li {
+	margin-left: 1.5%;
+	margin-bottom: 1%;
+}
+
+.terms a::after {
+	content: url("../img/free-icon-drop-down-arrow-60995.png");
+	float: inline-end;
+
+}
